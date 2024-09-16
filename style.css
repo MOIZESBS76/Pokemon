@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s ease;
+}
+#pokemon-imagens-container {
+    text-align: center;
+   
+}
+#pokemon-imagens-container img {
+    width: 300px; /* Aumenta a largura da imagem */
+    height: 350px; /* Ajusta a altura da imagem */
+}
+.controller {
+    margin: 20px 0;
+}
+.controller input, button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+}
